@@ -23,7 +23,7 @@ public class PointTest {
     @Test
     public void distance3d() {
         Point a = new Point(1, 2, 4);
-        Point b = new Point(0, 3,10);
+        Point b = new Point(0, 3, 10);
         Point c = new Point(6, 6, 6);
         double rslAB = a.distance3d(b);
         double rslAC = a.distance3d(c);

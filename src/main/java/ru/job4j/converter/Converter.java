@@ -7,7 +7,7 @@ public class Converter {
     }
 
     public static int rubleToDollar(int value) {
-        int result= value / 60;
+        int result = value / 60;
         return result;
     }
 

@@ -30,11 +30,11 @@ public class Point {
 
     public static void main(String[] args) {
         Point a = new Point(1, 2, 4);
-        Point b = new Point(0, 3,10);
+        Point b = new Point(0, 3, 10);
         Point c = new Point(6, 6, 6);
         double rslAB = a.distance3d(b);
         double rslAC = a.distance3d(c);
         double rslBC = b.distance3d(c);
-        System.out.println(rslAB + " " + rslAC + " "+ rslBC);
+        System.out.println(rslAB + " " + rslAC + " " + rslBC);
     }
 }
