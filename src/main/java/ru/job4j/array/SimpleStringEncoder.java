@@ -18,7 +18,7 @@ public class SimpleStringEncoder {
         return result;
     }
 
-    public static String add (char sym, int count, String str) {
+    public static String add(char sym, int count, String str) {
         str += Character.toString(sym);
         if (count > 1) {
             str += Integer.toString(count);
